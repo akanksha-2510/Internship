@@ -1,0 +1,48 @@
+*{
+    margin: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(198, 198, 217, 0.408);
+    border: 2px solid rgb(6, 7, 12);
+    margin-top: 50px;
+    font-size: larger;
+}
+.names{
+margin-top: 10px;
+margin-left: 10px;
+
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.gender{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pass{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn button{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(238, 239, 243);
+    border-radius: 10%;
+    background-color: rgba(8, 8, 8, 0.751);
+    font-size: larger;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

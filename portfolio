@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    line-height: 1.6;
+    background-color: rgba(163, 163, 208, 0.848);
+    color: #0f0f0f;
+}
+header {
+    background: #17014ff5;
+    color: rgb(243, 237, 237);
+    text-align: center;
+    padding: 40px 20px;
+}
+nav {
+    background: #120046cd;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #333;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #17014ff5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .skill {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Akanksha Shelar</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer skilled in creating responsive and user-friendly websites.
+        </p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: akanksha100@email.com</p>
+        <p>Phone: 938292220</p>
+        <p>Github: <a href="https://github.com/akanksha-2510">akanksha-2510</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Akanksha Shelar | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
